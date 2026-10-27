@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lamha — Support</title>
+<style>
+  :root {
+    --bg: #0a0e1f;
+    --card: #12183a;
+    --text: #e8ecfb;
+    --muted: #a7b0d6;
+    --accent: #6fa8ff;
+    --border: #232b57;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1a1e2e;
+      --muted: #565f82;
+      --accent: #2458c8;
+      --border: #e1e4f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  header.page-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .updated { color: var(--muted); font-size: 0.9rem; margin: 0 0 24px; }
+  .lang-toggle {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .lang-toggle button {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--text);
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .lang-toggle button[aria-pressed="true"] {
+    background: var(--accent);
+    color: #0a0e1f;
+    font-weight: 600;
+  }
+  section.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+  }
+  h2 { font-size: 1.05rem; margin: 0 0 10px; }
+  p { margin: 0 0 10px; }
+  ul { margin: 0 0 10px; padding-inline-start: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  code {
+    background: var(--border);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 0.9em;
+  }
+  [dir="rtl"] { text-align: right; }
+  [data-lang="ar"] { display: none; }
+  [data-lang="en"] { display: block; }
+  body.lang-ar [data-lang="en"] { display: none; }
+  body.lang-ar [data-lang="ar"] { display: block; }
+  footer { color: var(--muted); font-size: 0.85rem; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="page-head">
+    <div>
+      <h1>Lamha (لمحة) — Support</h1>
+      <p class="updated">Last updated: October 27, 2026</p>
+    </div>
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-set-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-set-lang="ar" aria-pressed="false">العربية</button>
+    </div>
+  </header>
+
+  <!-- ======================= ENGLISH ======================= -->
+  <div data-lang="en">
+
+    <section class="card">
+      <p>Need help with <strong>Lamha</strong>, have a problem to report, or a question about a purchase? This page covers the most common cases. For anything else, contact us directly: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Reporting a problem</h2>
+      <p>Email us at <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a> with a short description of what happened. Including the details below helps us fix it faster:</p>
+      <ul>
+        <li><strong>App version</strong> — on your iPhone, open the <strong>Settings</strong> app → <strong>General</strong> → <strong>iPhone Storage</strong>, scroll to <strong>Lamha</strong> and tap it; the version number is shown there. (On Android, open the <strong>Google Play Store</strong> app → your profile icon → <strong>Manage apps &amp; device</strong> → find Lamha to see its version.)</li>
+        <li><strong>Device and OS version</strong> — on iPhone: <strong>Settings</strong> → <strong>General</strong> → <strong>About</strong> (shows your device model and iOS version). On Android: <strong>Settings</strong> → <strong>About phone</strong>.</li>
+        <li><strong>What happened</strong> — what you were doing, what you expected, and what happened instead. A screenshot helps if the issue is visual.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Restoring a purchase</h2>
+      <p>If you've previously bought Lamha Premium or a One-Day Pass and it's not unlocked on this install — for example after reinstalling the app or switching devices — you can restore it without paying again, as long as you're signed in with the same Apple ID or Google account you purchased with:</p>
+      <ul>
+        <li>Open <strong>Settings</strong> inside Lamha, go to the <strong>Subscription</strong> section, and tap <strong>"Restore purchases."</strong></li>
+        <li>You can also do this from the <strong>Lamha Premium</strong> screen — look for <em>"Already subscribed on this store account?"</em> and tap <strong>"Restore purchases"</strong> there.</li>
+        <li>While it's checking, the button shows <em>"Restoring…"</em>. When it's done, you'll see either a confirmation that Premium was restored, or a message that no previous purchase was found for that store account (this usually means you're signed in with a different Apple ID/Google account than the one you originally purchased with).</li>
+      </ul>
+      <p>Restoring never charges you again — it only reapplies a purchase already on record with Apple or Google.</p>
+    </section>
+
+    <section class="card">
+      <h2>Managing or cancelling your subscription</h2>
+      <p>Lamha doesn't process payments itself and can't cancel a subscription from inside the app — that's always handled directly by Apple or Google, the same way it works for any app:</p>
+      <ul>
+        <li>In Lamha, open <strong>Settings</strong> → <strong>Subscription</strong> and tap <strong>"Manage subscription"</strong> (shown only if you have an active auto-renewing subscription). This opens your Apple or Google account's own subscription page.</li>
+        <li>You can also go there directly: on iPhone, open <strong>Settings</strong> (the device's Settings app, not Lamha's) → tap your name at the top → <strong>Subscriptions</strong>. On Android, open the <strong>Google Play Store</strong> app → your profile icon → <strong>Payments &amp; subscriptions</strong> → <strong>Subscriptions</strong>.</li>
+        <li>From there you can cancel auto-renewal at any time; you'll keep access until the end of the period you already paid for.</li>
+      </ul>
+      <p>The one-day Premium pass is a single, non-renewing purchase — it simply expires on its own after a day and never auto-renews, so there's nothing to cancel.</p>
+    </section>
+
+    <section class="card">
+      <h2>Privacy</h2>
+      <p>For details on what data Lamha, Google AdMob, and RevenueCat each handle, see our <a href="https://lamha-app.github.io/lamha-legal/" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>For anything not covered here: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a></p>
+    </section>
+
+  </div>
+
+  <!-- ======================= ARABIC ======================= -->
+  <div data-lang="ar" dir="rtl" lang="ar">
+
+    <section class="card">
+      <p>تحتاج مساعدة بخصوص <strong>لمحة</strong>، أو تريد الإبلاغ عن مشكلة، أو لديك سؤال حول عملية شراء؟ تغطي هذه الصفحة الحالات الأكثر شيوعًا. لأي أمر آخر، تواصل معنا مباشرة: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>الإبلاغ عن مشكلة</h2>
+      <p>راسلنا على <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a> مع وصف مختصر لما حدث. تضمين التفاصيل التالية يساعدنا على حل المشكلة بشكل أسرع:</p>
+      <ul>
+        <li><strong>إصدار التطبيق</strong> — على آيفون، افتح تطبيق <strong>الإعدادات</strong> ← <strong>عام</strong> ← <strong>مساحة تخزين iPhone</strong>، ثم مرّر للأسفل واضغط على <strong>لمحة</strong>؛ يظهر رقم الإصدار هناك. (على أندرويد، افتح تطبيق <strong>متجر Google Play</strong> ← أيقونة ملفك الشخصي ← <strong>إدارة التطبيقات والأجهزة</strong> ← ابحث عن لمحة لمعرفة إصدارها.)</li>
+        <li><strong>الجهاز وإصدار النظام</strong> — على آيفون: <strong>الإعدادات</strong> ← <strong>عام</strong> ← <strong>حول</strong> (يُظهر طراز جهازك وإصدار iOS). على أندرويد: <strong>الإعدادات</strong> ← <strong>حول الهاتف</strong>.</li>
+        <li><strong>ماذا حدث</strong> — ما كنت تفعله، وما كنت تتوقعه، وماذا حدث بدلًا من ذلك. لقطة شاشة تساعد إذا كانت المشكلة تتعلق بما يظهر على الشاشة.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>استعادة عملية شراء</h2>
+      <p>إذا سبق أن اشتريت لمحة بريميوم أو تصريح يوم واحد ولم يظهر مفعّلًا على هذا التثبيت — مثلًا بعد إعادة تثبيت التطبيق أو تبديل الجهاز — يمكنك استعادته دون دفع مرة أخرى، بشرط تسجيل الدخول بنفس حساب Apple أو Google الذي استخدمته في الشراء:</p>
+      <ul>
+        <li>افتح <strong>الإعدادات</strong> داخل لمحة، وانتقل إلى قسم <strong>الاشتراك</strong>، واضغط <strong>"استعادة المشتريات."</strong></li>
+        <li>يمكنك أيضًا فعل ذلك من شاشة <strong>لمحة بريميوم</strong> — ابحث عن عبارة <em>"مشترك بالفعل بهذا الحساب في المتجر؟"</em> واضغط <strong>"استعادة المشتريات"</strong> هناك.</li>
+        <li>أثناء التحقق، يظهر على الزر <em>"جارٍ الاستعادة…"</em>. وعند الانتهاء، سترى إما تأكيدًا بأن بريميوم تمت استعادته، أو رسالة بأنه لم يُعثر على اشتراك سابق لهذا الحساب في المتجر (هذا يعني غالبًا أنك مسجّل بحساب Apple/Google مختلف عن الذي اشتريت به في الأصل).</li>
+      </ul>
+      <p>الاستعادة لا تُحاسبك مرة أخرى أبدًا — فهي فقط تُطبّق من جديد عملية شراء مسجّلة مسبقًا لدى Apple أو Google.</p>
+    </section>
+
+    <section class="card">
+      <h2>إدارة اشتراكك أو إلغاؤه</h2>
+      <p>لا تعالج لمحة عمليات الدفع بنفسها، ولا يمكنها إلغاء الاشتراك من داخل التطبيق — هذا الأمر تتولاه Apple أو Google مباشرة دومًا، كما هو الحال مع أي تطبيق آخر:</p>
+      <ul>
+        <li>في لمحة، افتح <strong>الإعدادات</strong> ← <strong>الاشتراك</strong> واضغط <strong>"إدارة الاشتراك"</strong> (يظهر فقط إذا كان لديك اشتراك فعّال يتجدد تلقائيًا). سيفتح هذا صفحة الاشتراكات الخاصة بحسابك في Apple أو Google.</li>
+        <li>يمكنك أيضًا الوصول إليها مباشرة: على آيفون، افتح <strong>الإعدادات</strong> (تطبيق إعدادات الجهاز، لا إعدادات لمحة) ← اضغط اسمك في الأعلى ← <strong>الاشتراكات</strong>. على أندرويد، افتح تطبيق <strong>متجر Google Play</strong> ← أيقونة ملفك الشخصي ← <strong>الدفعات والاشتراكات</strong> ← <strong>الاشتراكات</strong>.</li>
+        <li>من هناك يمكنك إلغاء التجديد التلقائي في أي وقت؛ وستحتفظ بإمكانية الوصول حتى نهاية الفترة التي دفعت ثمنها مسبقًا.</li>
+      </ul>
+      <p>تصريح بريميوم ليوم واحد هو عملية شراء واحدة لا تتجدد — ينتهي تلقائيًا بعد يوم واحد ولا يتجدد تلقائيًا أبدًا، فلا حاجة لإلغائه.</p>
+    </section>
+
+    <section class="card">
+      <h2>الخصوصية</h2>
+      <p>لمعرفة تفاصيل البيانات التي تتعامل معها كل من لمحة و Google AdMob و RevenueCat، راجع <a href="https://lamha-app.github.io/lamha-legal/" target="_blank" rel="noopener">سياسة الخصوصية</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>التواصل</h2>
+      <p>لأي أمر غير مذكور هنا: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a></p>
+    </section>
+
+  </div>
+
+  <footer>Lamha (لمحة) — com.ahmedalmoutiry.lamha</footer>
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('[data-set-lang]');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var lang = btn.getAttribute('data-set-lang');
+        document.body.classList.toggle('lang-ar', lang === 'ar');
+        document.documentElement.lang = lang;
+        buttons.forEach(function (b) {
+          b.setAttribute('aria-pressed', String(b === btn));
+        });
+      });
+    });
+  })();
+</script>
+</body>
+</html>
