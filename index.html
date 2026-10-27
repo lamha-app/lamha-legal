@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lamha — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #0a0e1f;
+    --card: #12183a;
+    --text: #e8ecfb;
+    --muted: #a7b0d6;
+    --accent: #6fa8ff;
+    --border: #232b57;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #1a1e2e;
+      --muted: #565f82;
+      --accent: #2458c8;
+      --border: #e1e4f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  header.page-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .updated { color: var(--muted); font-size: 0.9rem; margin: 0 0 24px; }
+  .lang-toggle {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .lang-toggle button {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: var(--text);
+    padding: 8px 14px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .lang-toggle button[aria-pressed="true"] {
+    background: var(--accent);
+    color: #0a0e1f;
+    font-weight: 600;
+  }
+  section.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 16px;
+  }
+  h2 { font-size: 1.05rem; margin: 0 0 10px; }
+  p { margin: 0 0 10px; }
+  ul { margin: 0 0 10px; padding-inline-start: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  [dir="rtl"] { text-align: right; }
+  [data-lang="ar"] { display: none; }
+  [data-lang="en"] { display: block; }
+  body.lang-ar [data-lang="en"] { display: none; }
+  body.lang-ar [data-lang="ar"] { display: block; }
+  footer { color: var(--muted); font-size: 0.85rem; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="page-head">
+    <div>
+      <h1>Lamha (لمحة) — Privacy Policy</h1>
+      <p class="updated">Last updated: October 27, 2026</p>
+    </div>
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-set-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-set-lang="ar" aria-pressed="false">العربية</button>
+    </div>
+  </header>
+
+  <!-- ======================= ENGLISH ======================= -->
+  <div data-lang="en">
+
+    <section class="card">
+      <p>This policy explains what happens with your data when you use <strong>Lamha</strong>, a mental-math practice game for iOS and Android. Lamha does not require an account and does not run its own servers. Most of what the app does stays entirely on your device. The exceptions are in-app purchases and ads, which are handled by third-party services described below.</p>
+      <p>Controller / developer contact: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a></p>
+    </section>
+
+    <section class="card">
+      <h2>Data that stays only on your device</h2>
+      <p>Lamha stores the following directly on your device, using standard app storage. It is never sent to us, because we have no server to send it to, and we cannot see it:</p>
+      <ul>
+        <li>Your scores and stats for each game mode (Custom, Adaptive Challenge)</li>
+        <li>Your daily streak</li>
+        <li>Progress in Adaptive Challenge's difficulty levels</li>
+        <li>An in-progress round, kept briefly so an interrupted round can resume</li>
+        <li>Your chosen language and appearance (light/dark) setting</li>
+        <li>Your saved custom round settings</li>
+      </ul>
+      <p>Uninstalling the app, or clearing its data from your device's settings, permanently deletes all of this. We have no copy of it anywhere. Note that if you use your device's own backup feature — such as iCloud Backup on iOS or Android's backup to your Google Account — this data may be included in that backup like any other app's data on your device. That backup is created and controlled by your device's operating system and your own Apple or Google account, not by Lamha.</p>
+    </section>
+
+    <section class="card">
+      <h2>No account, no personal details collected by Lamha itself</h2>
+      <p>Lamha never asks you to sign up, log in, or give us your name, email address, or any other personal detail. Nothing you type into the game itself (your answers to math problems) is stored as personal data or sent anywhere.</p>
+    </section>
+
+    <section class="card">
+      <h2>In-app purchases and subscriptions (RevenueCat, Apple, Google)</h2>
+      <p>Lamha offers an optional Premium subscription (monthly or yearly) and an optional one-day pass, both unlocking Adaptive Challenge and removing ads. Purchases are handled by Apple's App Store or Google Play, and the purchase record is verified using <strong>RevenueCat</strong>, a third-party subscription-management service.</p>
+      <p>Through this process:</p>
+      <ul>
+        <li>Apple or Google processes your payment directly — Lamha and RevenueCat never see your card details.</li>
+        <li>RevenueCat receives your purchase/transaction record (product purchased, price, dates, transaction IDs) from Apple/Google to confirm what you've bought, and assigns an anonymous app-user ID to your install of Lamha so it can recognize the same install again (for example, to restore a purchase). Lamha does not give RevenueCat your name or email.</li>
+      </ul>
+      <p>RevenueCat's own privacy policy: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
+      <p>You can manage or cancel a subscription at any time from your Apple or Google account's subscription settings (Lamha's Settings screen links directly to this).</p>
+    </section>
+
+    <section class="card">
+      <h2>Advertising (Google AdMob)</h2>
+      <p>If you are not a Premium subscriber or day-pass holder, Lamha shows occasional interstitial (full-screen) ads between rounds — never during gameplay itself, never on launch, and never on the purchase screen. Ads are served by <strong>Google AdMob</strong>.</p>
+      <p>Specifically:</p>
+      <ul>
+        <li>Every ad request Lamha makes explicitly asks Google for a <strong>non-personalized</strong> ad only. Lamha never asks Google to personalize ads to you based on your activity.</li>
+        <li>Lamha's own code never reads or uses your device's advertising identifier (such as the IDFA on iOS or your Google Advertising ID on Android). Google's advertising SDK, which actually serves the ad, can still use that identifier itself — by Google's own account, even non-personalized ads still use mobile ad identifiers for frequency capping (limiting how often you see the same ad) and aggregated ad reporting. This is why Lamha does not show an App Tracking Transparency prompt on iOS: that prompt is for tracking across other companies' apps and websites, which Lamha itself does not do.</li>
+        <li>Even for a non-personalized ad, Google's advertising SDK still processes some technical data to serve the ad, measure it, prevent fraud, and determine which consent rules apply to you — for example your IP address, general device/network information, and coarse, city-level location inferred from your IP address (Lamha does not request or have access to your device's GPS location). This happens under Google's own policies, not Lamha's, once the request leaves the app.</li>
+      </ul>
+      <p>Where legally required (for example, in the EEA and UK), Lamha uses Google's <strong>User Messaging Platform (UMP)</strong> to show you a consent form before requesting ads. You can review or change that choice any time from Lamha's Settings screen, under "Ads &amp; privacy → Privacy options" (this option only appears where it applies to you).</p>
+      <p>Google's relevant policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from apps that use its services</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>Children's privacy</h2>
+      <p>Lamha is a general-audience math-practice game and is not directed at children. We do not knowingly collect personal information from children through the app. If you believe a child has provided us with personal information, contact us at the email below and we will address it.</p>
+    </section>
+
+    <section class="card">
+      <h2>Your choices</h2>
+      <ul>
+        <li>Clear or delete local gameplay data at any time by clearing the app's storage or uninstalling it.</li>
+        <li>Manage ad consent via Settings → Ads &amp; privacy → Privacy options, where shown.</li>
+        <li>Manage or cancel your subscription via your Apple or Google account settings.</li>
+        <li>For questions about data RevenueCat, Apple, or Google hold about your purchases or ad activity, you can also contact them directly using the links above.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Changes to this policy</h2>
+      <p>We may update this policy as the app changes. Material changes will be reflected by updating the date at the top of this page.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Questions about this policy or Lamha's data practices: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a></p>
+    </section>
+
+  </div>
+
+  <!-- ======================= ARABIC ======================= -->
+  <div data-lang="ar" dir="rtl" lang="ar">
+
+    <section class="card">
+      <p>توضّح هذه السياسة ما يحدث لبياناتك عند استخدام <strong>لمحة</strong>، لعبة تدريب على الحساب الذهني لنظامي iOS و Android. لا تتطلب لمحة إنشاء حساب، ولا تملك خوادم خاصة بها. يبقى معظم ما تقوم به اللعبة على جهازك فقط. الاستثناءات هي عمليات الشراء داخل التطبيق والإعلانات، التي تُدار عبر خدمات تابعة لجهات خارجية موضّحة أدناه.</p>
+      <p>جهة التواصل الخاصة بالمطوّر: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a></p>
+    </section>
+
+    <section class="card">
+      <h2>البيانات التي تبقى على جهازك فقط</h2>
+      <p>تخزّن لمحة ما يلي مباشرة على جهازك، باستخدام مساحة التخزين المعتادة للتطبيق. لا يتم إرسال هذه البيانات إلينا أبدًا، لأننا لا نملك خادمًا لاستقبالها، ولا يمكننا الوصول إليها:</p>
+      <ul>
+        <li>نتائجك وإحصاءاتك في كل نمط لعب (مخصّص، التحدي التكيّفي)</li>
+        <li>سلسلة أيامك المتتالية</li>
+        <li>تقدّمك في مستويات صعوبة التحدي التكيّفي</li>
+        <li>جولة قيد التقدم، تُحفظ لفترة قصيرة فقط لاستئناف جولة متوقفة</li>
+        <li>اللغة والمظهر (فاتح/داكن) الذي اخترته</li>
+        <li>إعدادات الجولة المخصّصة التي حفظتها</li>
+      </ul>
+      <p>حذف التطبيق، أو مسح بياناته من إعدادات جهازك، يحذف كل ما سبق نهائيًا. لا تحتفظ لمحة بأي نسخة منه في أي مكان آخر. يُرجى العلم أنه إذا كنت تستخدم ميزة النسخ الاحتياطي الخاصة بجهازك — مثل iCloud Backup على iOS أو النسخ الاحتياطي لنظام Android إلى حساب Google الخاص بك — فقد تُدرَج هذه البيانات ضمن تلك النسخة الاحتياطية، شأنها شأن بيانات أي تطبيق آخر على جهازك. تُنشأ هذه النسخة الاحتياطية ويتحكم بها نظام تشغيل جهازك وحسابك في Apple أو Google، وليس لمحة.</p>
+    </section>
+
+    <section class="card">
+      <h2>لا حساب، ولا بيانات شخصية تجمعها لمحة بنفسها</h2>
+      <p>لا تطلب لمحة منك أبدًا إنشاء حساب أو تسجيل الدخول أو تزويدنا باسمك أو بريدك الإلكتروني أو أي بيانات شخصية أخرى. كما أن ما تكتبه داخل اللعبة (إجاباتك على المسائل الحسابية) لا يُحفظ كبيانات شخصية ولا يُرسل إلى أي مكان.</p>
+    </section>
+
+    <section class="card">
+      <h2>عمليات الشراء والاشتراكات داخل التطبيق (RevenueCat وApple وGoogle)</h2>
+      <p>توفّر لمحة اشتراكًا اختياريًا (شهري أو سنوي) وبطاقة يوم واحد اختيارية، وكلاهما يفتح التحدي التكيّفي ويزيل الإعلانات. تتم عمليات الشراء عبر App Store من Apple أو Google Play، ويتم التحقق من سجل الشراء باستخدام <strong>RevenueCat</strong>، خدمة تابعة لجهة خارجية لإدارة الاشتراكات.</p>
+      <p>من خلال هذه العملية:</p>
+      <ul>
+        <li>تتولى Apple أو Google معالجة الدفع مباشرة — لا تطّلع لمحة أو RevenueCat على بيانات بطاقتك.</li>
+        <li>تستلم RevenueCat سجل عملية الشراء (المنتج المُشترى، السعر، التواريخ، أرقام المعاملات) من Apple/Google لتأكيد ما قمت بشرائه، وتُخصّص معرّف مستخدم مجهول الهوية لنسخة التطبيق المثبّتة لديك حتى يمكن التعرّف عليها لاحقًا (مثلًا لاستعادة عملية شراء سابقة). لا تزوّد لمحة RevenueCat باسمك أو بريدك الإلكتروني.</li>
+      </ul>
+      <p>سياسة خصوصية RevenueCat: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
+      <p>يمكنك إدارة اشتراكك أو إلغاؤه في أي وقت من إعدادات حسابك في Apple أو Google (شاشة الإعدادات في لمحة تتضمن رابطًا مباشرًا لذلك).</p>
+    </section>
+
+    <section class="card">
+      <h2>الإعلانات (Google AdMob)</h2>
+      <p>إذا لم تكن مشتركًا في النسخة المميزة أو حاملًا لبطاقة اليوم الواحد، تعرض لمحة أحيانًا إعلانات بينية (ملء الشاشة) بين الجولات — لا تظهر أبدًا خلال اللعب نفسه، ولا عند فتح التطبيق، ولا في شاشة الشراء. تُعرض الإعلانات عبر <strong>Google AdMob</strong>.</p>
+      <p>بالتحديد:</p>
+      <ul>
+        <li>كل طلب إعلان من لمحة يطلب من Google صراحةً إعلانًا <strong>غير مخصّص</strong> فقط. لا تطلب لمحة من Google تخصيص الإعلانات بناءً على نشاطك.</li>
+        <li>لا تقرأ شيفرة لمحة نفسها معرّف الإعلانات الخاص بجهازك (مثل IDFA على iOS أو معرّف إعلانات Google على Android) ولا تستخدمه إطلاقًا. غير أن حزمة إعلانات Google، وهي الجهة التي تعرض الإعلان فعليًا، قد تستخدم هذا المعرّف بنفسها — فبحسب إفادة Google ذاتها، حتى الإعلانات غير المخصّصة تستخدم معرّفات الإعلانات لتحديد عدد مرات ظهور الإعلان نفسه لك (Frequency Capping) ولأغراض التقارير المجمّعة. لهذا السبب لا تعرض لمحة طلب "App Tracking Transparency" على iOS: هذا الطلب مخصّص للتتبّع عبر تطبيقات ومواقع شركات أخرى، وهو أمر لا تقوم به لمحة أصلًا.</li>
+        <li>حتى في حالة الإعلان غير المخصّص، تعالج حزمة إعلانات Google بعض البيانات التقنية لعرض الإعلان وقياسه ومنع الاحتيال وتحديد القواعد التي تنطبق على موافقتك — مثل عنوان IP الخاص بك، ومعلومات عامة عن الجهاز والشبكة، وموقع تقريبي على مستوى المدينة يُستخلص من عنوان IP (لا تطلب لمحة ولا يمكنها الوصول إلى موقع GPS الخاص بجهازك). يحدث ذلك بموجب سياسات Google الخاصة، لا سياسات لمحة، فور خروج الطلب من التطبيق.</li>
+      </ul>
+      <p>في الحالات التي يتطلبها القانون (مثل المنطقة الاقتصادية الأوروبية والمملكة المتحدة)، تستخدم لمحة <strong>منصة Google لرسائل المستخدم (UMP)</strong> لعرض نموذج موافقة قبل طلب الإعلانات. يمكنك مراجعة هذا الاختيار أو تغييره في أي وقت من شاشة الإعدادات في لمحة، تحت "الإعلانات والخصوصية ← خيارات الخصوصية" (يظهر هذا الخيار فقط إذا كان ينطبق عليك).</p>
+      <p>سياسات Google ذات الصلة: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية Google</a> و<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">كيفية استخدام Google للمعلومات من التطبيقات التي تستخدم خدماتها</a>.</p>
+    </section>
+
+    <section class="card">
+      <h2>خصوصية الأطفال</h2>
+      <p>لمحة لعبة عامة لتدريب الحساب الذهني وغير موجّهة للأطفال. لا نجمع عمدًا أي معلومات شخصية عن الأطفال من خلال التطبيق. إذا كنت تعتقد أن طفلًا قد زوّدنا بمعلومات شخصية، يُرجى التواصل معنا عبر البريد الإلكتروني أدناه وسنتعامل مع الأمر.</p>
+    </section>
+
+    <section class="card">
+      <h2>اختياراتك</h2>
+      <ul>
+        <li>حذف بيانات اللعب المحلية في أي وقت بمسح بيانات التطبيق أو إزالته.</li>
+        <li>إدارة موافقة الإعلانات عبر الإعدادات ← الإعلانات والخصوصية ← خيارات الخصوصية، عند ظهورها.</li>
+        <li>إدارة اشتراكك أو إلغاؤه من إعدادات حسابك في Apple أو Google.</li>
+        <li>للاستفسار عن البيانات التي تحتفظ بها RevenueCat أو Apple أو Google بخصوص مشترياتك أو نشاط الإعلانات، يمكنك أيضًا التواصل معها مباشرة عبر الروابط أعلاه.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>التغييرات على هذه السياسة</h2>
+      <p>قد نحدّث هذه السياسة مع تطوّر التطبيق. سيتم توضيح أي تغييرات جوهرية بتحديث التاريخ في أعلى هذه الصفحة.</p>
+    </section>
+
+    <section class="card">
+      <h2>التواصل</h2>
+      <p>لأي استفسار حول هذه السياسة أو ممارسات لمحة في التعامل مع البيانات: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a></p>
+    </section>
+
+  </div>
+
+  <footer>Lamha (لمحة) — com.ahmedalmoutiry.lamha</footer>
+</div>
+
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('[data-set-lang]');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var lang = btn.getAttribute('data-set-lang');
+        document.body.classList.toggle('lang-ar', lang === 'ar');
+        document.documentElement.lang = lang;
+        buttons.forEach(function (b) {
+          b.setAttribute('aria-pressed', String(b === btn));
+        });
+      });
+    });
+  })();
+</script>
+</body>
+</html>
