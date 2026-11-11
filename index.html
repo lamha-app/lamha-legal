@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Lamha — Privacy Policy</title>
+<title>FlashSum – Math Challenge (Lamha) — Privacy Policy</title>
 <style>
   :root {
     --bg: #0a0e1f;
@@ -91,8 +91,8 @@
 
   <header class="page-head">
     <div>
-      <h1>Lamha (لمحة) — Privacy Policy</h1>
-      <p class="updated">Last updated: October 27, 2026</p>
+      <h1>FlashSum – Math Challenge (Lamha · لمحة) — Privacy Policy</h1>
+      <p class="updated">Last updated: November 11, 2026</p>
     </div>
     <div class="lang-toggle" role="group" aria-label="Language">
       <button type="button" data-set-lang="en" aria-pressed="true">English</button>
@@ -104,7 +104,7 @@
   <div data-lang="en">
 
     <section class="card">
-      <p>This policy explains what happens with your data when you use <strong>Lamha</strong>, a mental-math practice game for iOS and Android. Lamha does not require an account and does not run its own servers. Most of what the app does stays entirely on your device. The exceptions are in-app purchases and ads, which are handled by third-party services described below.</p>
+      <p>This policy explains what happens with your data when you use <strong>FlashSum – Math Challenge</strong> (also known as <strong>Lamha</strong> / <strong>لمحة – تحدي الحساب</strong>), a mental-math practice game for iOS and Android. Lamha does not require an account and does not run its own servers. Most of what the app does stays entirely on your device. The exceptions are in-app purchases and ads, which are handled by third-party services described below.</p>
       <p>Controller / developer contact: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a></p>
     </section>
 
@@ -128,28 +128,31 @@
     </section>
 
     <section class="card">
-      <h2>In-app purchases and subscriptions (RevenueCat, Apple, Google)</h2>
-      <p>Lamha offers an optional Premium subscription (monthly or yearly) and an optional one-day pass, both unlocking Adaptive Challenge and removing ads. Purchases are handled by Apple's App Store or Google Play, and the purchase record is verified using <strong>RevenueCat</strong>, a third-party subscription-management service.</p>
+      <h2>In-app purchases (RevenueCat, Apple, Google)</h2>
+      <p>The only thing Lamha sells is an optional <strong>24-hour ad-free pass</strong>: a one-time, non-renewing purchase whose only benefit is removing ads for 24 hours. All game features are free. Earlier versions also offered monthly and yearly subscriptions; they are no longer offered, but if you still have an active one it keeps working and keeps ads off until it ends. Purchases are handled by Apple's App Store or Google Play, and the purchase record is verified using <strong>RevenueCat</strong>, a third-party subscription-management service.</p>
       <p>Through this process:</p>
       <ul>
         <li>Apple or Google processes your payment directly — Lamha and RevenueCat never see your card details.</li>
         <li>RevenueCat receives your purchase/transaction record (product purchased, price, dates, transaction IDs) from Apple/Google to confirm what you've bought, and assigns an anonymous app-user ID to your install of Lamha so it can recognize the same install again (for example, to restore a purchase). Lamha does not give RevenueCat your name or email.</li>
       </ul>
       <p>RevenueCat's own privacy policy: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
-      <p>You can manage or cancel a subscription at any time from your Apple or Google account's subscription settings (Lamha's Settings screen links directly to this).</p>
+      <p>An existing subscription can be managed or cancelled at any time from your Apple or Google account's subscription settings (Lamha's Settings screen links directly to this). The 24-hour pass does not renew, so there is nothing to cancel.</p>
     </section>
 
     <section class="card">
-      <h2>Advertising (Google AdMob)</h2>
-      <p>If you are not a Premium subscriber or day-pass holder, Lamha shows occasional interstitial (full-screen) ads between rounds — never during gameplay itself, never on launch, and never on the purchase screen. Ads are served by <strong>Google AdMob</strong>.</p>
-      <p>Specifically:</p>
+      <h2>Advertising (Unity LevelPlay and Unity Ads on iOS; Google AdMob on Android)</h2>
+      <p>Unless an ad-free pass or an existing subscription is active, Lamha shows occasional interstitial (full-screen) ads between rounds — never during a round itself, never on launch, and never on the purchase screen. Ads are loaded only when you have an internet connection and a failed or unavailable ad never blocks play.</p>
+      <p><strong>On iOS</strong>, ads are served through <strong>Unity LevelPlay</strong> (ironSource), Unity's ad-mediation service, which runs an auction among ad networks including <strong>Unity Ads</strong>. These SDKs run inside the app and contact their own servers to request, show and measure ads. According to Unity's published disclosures they may process the following, under their own privacy policies and not Lamha's:</p>
       <ul>
-        <li>Every ad request Lamha makes explicitly asks Google for a <strong>non-personalized</strong> ad only. Lamha never asks Google to personalize ads to you based on your activity.</li>
-        <li>Lamha's own code never reads or uses your device's advertising identifier (such as the IDFA on iOS or your Google Advertising ID on Android). Google's advertising SDK, which actually serves the ad, can still use that identifier itself — by Google's own account, even non-personalized ads still use mobile ad identifiers for frequency capping (limiting how often you see the same ad) and aggregated ad reporting. This is why Lamha does not show an App Tracking Transparency prompt on iOS: that prompt is for tracking across other companies' apps and websites, which Lamha itself does not do.</li>
-        <li>Even for a non-personalized ad, Google's advertising SDK still processes some technical data to serve the ad, measure it, prevent fraud, and determine which consent rules apply to you — for example your IP address, general device/network information, and coarse, city-level location inferred from your IP address (Lamha does not request or have access to your device's GPS location). This happens under Google's own policies, not Lamha's, once the request leaves the app.</li>
+        <li>Device identifiers (for example the identifier for vendors, IDFV) and, only if you have separately allowed tracking, the advertising identifier (IDFA)</li>
+        <li>Ad-related data such as which ads were requested, shown or interacted with, and technical performance and diagnostic data about the ad</li>
+        <li>Your IP address and general device, operating-system and network information, from which an approximate (city-level) location can be derived. Lamha does not request or have access to your device's GPS location.</li>
       </ul>
-      <p>Where legally required (for example, in the EEA and UK), Lamha uses Google's <strong>User Messaging Platform (UMP)</strong> to show you a consent form before requesting ads. You can review or change that choice any time from Lamha's Settings screen, under "Ads &amp; privacy → Privacy options" (this option only appears where it applies to you).</p>
-      <p>Google's relevant policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from apps that use its services</a>.</p>
+      <p>LevelPlay also includes an <strong>Ad Quality</strong> component, which records which ad creatives were displayed so that inappropriate or low-quality ads can be reviewed and reported to the ad source. It works on the ads shown, under Unity's policies.</p>
+      <p>Lamha does <strong>not</strong> show the iOS App Tracking Transparency prompt, so it does not ask permission to track you across other companies' apps and websites, and the advertising identifier (IDFA) is not made available to the ad SDKs through Lamha. Lamha's own code never reads or stores any advertising identifier. Lamha does not give the ad providers your name, email or any account information, because it has none.</p>
+      <p>Where legally required (for example in the EEA and UK), Lamha uses Google's <strong>User Messaging Platform (UMP)</strong> to show a consent form before requesting ads, and the choice you make there is passed on to the ad SDKs. You can review or change it any time in Lamha's Settings, under "Ads &amp; privacy → Privacy options" (it only appears where it applies to you). If you decline, or consent can't be determined, Lamha does not request ads.</p>
+      <p>Unity's policies: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">Unity Privacy Policy</a> and <a href="https://unity.com/legal" target="_blank" rel="noopener">Unity legal information</a>.</p>
+      <p><strong>On Android</strong>, ads are served by <strong>Google AdMob</strong>. Every ad request explicitly asks Google for a <strong>non-personalized</strong> ad only. Even then, Google's advertising SDK still processes technical data (such as your IP address, general device and network information, and coarse city-level location inferred from your IP address) to serve and measure the ad, prevent fraud and apply consent rules, and can use mobile ad identifiers for frequency capping and aggregated reporting, under Google's own policies. Where required, the same Google consent form is shown. Google's policies: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from apps that use its services</a>.</p>
     </section>
 
     <section class="card">
@@ -162,8 +165,8 @@
       <ul>
         <li>Clear or delete local gameplay data at any time by clearing the app's storage or uninstalling it.</li>
         <li>Manage ad consent via Settings → Ads &amp; privacy → Privacy options, where shown.</li>
-        <li>Manage or cancel your subscription via your Apple or Google account settings.</li>
-        <li>For questions about data RevenueCat, Apple, or Google hold about your purchases or ad activity, you can also contact them directly using the links above.</li>
+        <li>Manage or cancel any existing subscription via your Apple or Google account settings.</li>
+        <li>For questions about data RevenueCat, Apple, Google, or Unity hold about your purchases or ad activity, you can also contact them directly using the links above.</li>
       </ul>
     </section>
 
@@ -183,7 +186,7 @@
   <div data-lang="ar" dir="rtl" lang="ar">
 
     <section class="card">
-      <p>توضّح هذه السياسة ما يحدث لبياناتك عند استخدام <strong>لمحة</strong>، لعبة تدريب على الحساب الذهني لنظامي iOS و Android. لا تتطلب لمحة إنشاء حساب، ولا تملك خوادم خاصة بها. يبقى معظم ما تقوم به اللعبة على جهازك فقط. الاستثناءات هي عمليات الشراء داخل التطبيق والإعلانات، التي تُدار عبر خدمات تابعة لجهات خارجية موضّحة أدناه.</p>
+      <p>توضّح هذه السياسة ما يحدث لبياناتك عند استخدام <strong>لمحة – تحدي الحساب</strong> (ويُعرف أيضًا باسم <strong>FlashSum – Math Challenge</strong> و<strong>Lamha</strong>)، لعبة تدريب على الحساب الذهني لنظامي iOS و Android. لا تتطلب لمحة إنشاء حساب، ولا تملك خوادم خاصة بها. يبقى معظم ما تقوم به اللعبة على جهازك فقط. الاستثناءات هي عمليات الشراء داخل التطبيق والإعلانات، التي تُدار عبر خدمات تابعة لجهات خارجية موضّحة أدناه.</p>
       <p>جهة التواصل الخاصة بالمطوّر: <a href="mailto:lamha.app.support@gmail.com">lamha.app.support@gmail.com</a></p>
     </section>
 
@@ -207,28 +210,31 @@
     </section>
 
     <section class="card">
-      <h2>عمليات الشراء والاشتراكات داخل التطبيق (RevenueCat وApple وGoogle)</h2>
-      <p>توفّر لمحة اشتراكًا اختياريًا (شهري أو سنوي) وبطاقة يوم واحد اختيارية، وكلاهما يفتح التحدي التكيّفي ويزيل الإعلانات. تتم عمليات الشراء عبر App Store من Apple أو Google Play، ويتم التحقق من سجل الشراء باستخدام <strong>RevenueCat</strong>، خدمة تابعة لجهة خارجية لإدارة الاشتراكات.</p>
+      <h2>عمليات الشراء داخل التطبيق (RevenueCat وApple وGoogle)</h2>
+      <p>الشيء الوحيد الذي تبيعه لمحة هو <strong>تصريح اختياري لمدة 24 ساعة بدون إعلانات</strong>: عملية شراء لمرة واحدة لا تتجدد، وفائدتها الوحيدة إزالة الإعلانات لمدة 24 ساعة. جميع ميزات اللعبة مجانية. كانت الإصدارات السابقة تقدّم أيضًا اشتراكات شهرية وسنوية؛ لم تعد متاحة للشراء، لكن إن كان لديك اشتراك فعّال فسيستمر عمله وتبقى الإعلانات متوقفة حتى انتهائه. تتم عمليات الشراء عبر App Store من Apple أو Google Play، ويتم التحقق من سجل الشراء باستخدام <strong>RevenueCat</strong>، خدمة تابعة لجهة خارجية لإدارة الاشتراكات.</p>
       <p>من خلال هذه العملية:</p>
       <ul>
         <li>تتولى Apple أو Google معالجة الدفع مباشرة — لا تطّلع لمحة أو RevenueCat على بيانات بطاقتك.</li>
         <li>تستلم RevenueCat سجل عملية الشراء (المنتج المُشترى، السعر، التواريخ، أرقام المعاملات) من Apple/Google لتأكيد ما قمت بشرائه، وتُخصّص معرّف مستخدم مجهول الهوية لنسخة التطبيق المثبّتة لديك حتى يمكن التعرّف عليها لاحقًا (مثلًا لاستعادة عملية شراء سابقة). لا تزوّد لمحة RevenueCat باسمك أو بريدك الإلكتروني.</li>
       </ul>
       <p>سياسة خصوصية RevenueCat: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a>.</p>
-      <p>يمكنك إدارة اشتراكك أو إلغاؤه في أي وقت من إعدادات حسابك في Apple أو Google (شاشة الإعدادات في لمحة تتضمن رابطًا مباشرًا لذلك).</p>
+      <p>يمكن إدارة أي اشتراك قائم أو إلغاؤه في أي وقت من إعدادات حسابك في Apple أو Google (شاشة الإعدادات في لمحة تتضمن رابطًا مباشرًا لذلك). تصريح الـ24 ساعة لا يتجدد، فلا حاجة لإلغائه.</p>
     </section>
 
     <section class="card">
-      <h2>الإعلانات (Google AdMob)</h2>
-      <p>إذا لم تكن مشتركًا في النسخة المميزة أو حاملًا لبطاقة اليوم الواحد، تعرض لمحة أحيانًا إعلانات بينية (ملء الشاشة) بين الجولات — لا تظهر أبدًا خلال اللعب نفسه، ولا عند فتح التطبيق، ولا في شاشة الشراء. تُعرض الإعلانات عبر <strong>Google AdMob</strong>.</p>
-      <p>بالتحديد:</p>
+      <h2>الإعلانات (Unity LevelPlay وUnity Ads على iOS؛ وGoogle AdMob على Android)</h2>
+      <p>ما لم يكن لديك تصريح بدون إعلانات ساريًا أو اشتراك قائم، تعرض لمحة أحيانًا إعلانات بينية (ملء الشاشة) بين الجولات — لا تظهر أبدًا خلال الجولة نفسها، ولا عند فتح التطبيق، ولا في شاشة الشراء. تُطلب الإعلانات فقط عند توفر اتصال بالإنترنت، ولا يمنع تعذّر الإعلان أو فشله اللعب أبدًا.</p>
+      <p><strong>على iOS</strong> تُعرض الإعلانات عبر <strong>Unity LevelPlay</strong> (ironSource)، خدمة Unity للوساطة الإعلانية، التي تجري مزادًا بين شبكات إعلانية منها <strong>Unity Ads</strong>. تعمل هذه الحزم داخل التطبيق وتتصل بخوادمها لطلب الإعلانات وعرضها وقياسها. وبحسب إفصاحات Unity المنشورة قد تعالج ما يلي، بموجب سياساتها الخاصة لا سياسات لمحة:</p>
       <ul>
-        <li>كل طلب إعلان من لمحة يطلب من Google صراحةً إعلانًا <strong>غير مخصّص</strong> فقط. لا تطلب لمحة من Google تخصيص الإعلانات بناءً على نشاطك.</li>
-        <li>لا تقرأ شيفرة لمحة نفسها معرّف الإعلانات الخاص بجهازك (مثل IDFA على iOS أو معرّف إعلانات Google على Android) ولا تستخدمه إطلاقًا. غير أن حزمة إعلانات Google، وهي الجهة التي تعرض الإعلان فعليًا، قد تستخدم هذا المعرّف بنفسها — فبحسب إفادة Google ذاتها، حتى الإعلانات غير المخصّصة تستخدم معرّفات الإعلانات لتحديد عدد مرات ظهور الإعلان نفسه لك (Frequency Capping) ولأغراض التقارير المجمّعة. لهذا السبب لا تعرض لمحة طلب "App Tracking Transparency" على iOS: هذا الطلب مخصّص للتتبّع عبر تطبيقات ومواقع شركات أخرى، وهو أمر لا تقوم به لمحة أصلًا.</li>
-        <li>حتى في حالة الإعلان غير المخصّص، تعالج حزمة إعلانات Google بعض البيانات التقنية لعرض الإعلان وقياسه ومنع الاحتيال وتحديد القواعد التي تنطبق على موافقتك — مثل عنوان IP الخاص بك، ومعلومات عامة عن الجهاز والشبكة، وموقع تقريبي على مستوى المدينة يُستخلص من عنوان IP (لا تطلب لمحة ولا يمكنها الوصول إلى موقع GPS الخاص بجهازك). يحدث ذلك بموجب سياسات Google الخاصة، لا سياسات لمحة، فور خروج الطلب من التطبيق.</li>
+        <li>معرّفات الجهاز (مثل معرّف المورّد IDFV)، ومعرّف الإعلانات (IDFA) فقط إذا كنت قد سمحت بالتتبّع بشكل منفصل</li>
+        <li>بيانات متعلقة بالإعلان، مثل الإعلانات التي طُلبت أو عُرضت أو تم التفاعل معها، وبيانات الأداء والتشخيص التقنية الخاصة بالإعلان</li>
+        <li>عنوان IP الخاص بك ومعلومات عامة عن الجهاز ونظام التشغيل والشبكة، ويمكن استنتاج موقع تقريبي على مستوى المدينة منها. لا تطلب لمحة موقع GPS الخاص بجهازك ولا يمكنها الوصول إليه.</li>
       </ul>
-      <p>في الحالات التي يتطلبها القانون (مثل المنطقة الاقتصادية الأوروبية والمملكة المتحدة)، تستخدم لمحة <strong>منصة Google لرسائل المستخدم (UMP)</strong> لعرض نموذج موافقة قبل طلب الإعلانات. يمكنك مراجعة هذا الاختيار أو تغييره في أي وقت من شاشة الإعدادات في لمحة، تحت "الإعلانات والخصوصية ← خيارات الخصوصية" (يظهر هذا الخيار فقط إذا كان ينطبق عليك).</p>
-      <p>سياسات Google ذات الصلة: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية Google</a> و<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">كيفية استخدام Google للمعلومات من التطبيقات التي تستخدم خدماتها</a>.</p>
+      <p>تتضمن LevelPlay أيضًا مكوّن <strong>Ad Quality</strong> الذي يسجّل الإعلانات التي عُرضت حتى تتم مراجعة الإعلانات غير اللائقة أو منخفضة الجودة والإبلاغ عنها للجهة المصدرة. ويعمل على الإعلانات المعروضة، بموجب سياسات Unity.</p>
+      <p>لا تعرض لمحة طلب <strong>App Tracking Transparency</strong> على iOS، فهي لا تطلب إذنًا لتتبّعك عبر تطبيقات ومواقع شركات أخرى، ولا يُتاح معرّف الإعلانات (IDFA) لحزم الإعلانات عبر لمحة. ولا تقرأ شيفرة لمحة نفسها أي معرّف إعلانات ولا تخزّنه. ولا تزوّد لمحة الجهات الإعلانية باسمك أو بريدك الإلكتروني أو أي معلومات حساب، لأنها لا تملك أيًّا منها.</p>
+      <p>في الحالات التي يتطلبها القانون (مثل المنطقة الاقتصادية الأوروبية والمملكة المتحدة)، تستخدم لمحة <strong>منصة Google لرسائل المستخدم (UMP)</strong> لعرض نموذج موافقة قبل طلب الإعلانات، ويُمرَّر اختيارك إلى حزم الإعلانات. يمكنك مراجعته أو تغييره في أي وقت من الإعدادات في لمحة، تحت "الإعلانات والخصوصية ← خيارات الخصوصية" (يظهر فقط إذا كان ينطبق عليك). وإذا رفضت أو تعذّر تحديد الموافقة، فلن تطلب لمحة أي إعلانات.</p>
+      <p>سياسات Unity: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener">سياسة خصوصية Unity</a> و<a href="https://unity.com/legal" target="_blank" rel="noopener">المعلومات القانونية لدى Unity</a>.</p>
+      <p><strong>على Android</strong> تُعرض الإعلانات عبر <strong>Google AdMob</strong>. يطلب كل طلب إعلان من Google صراحةً إعلانًا <strong>غير مخصّص</strong> فقط. ومع ذلك تعالج حزمة إعلانات Google بعض البيانات التقنية (مثل عنوان IP ومعلومات عامة عن الجهاز والشبكة وموقع تقريبي على مستوى المدينة يُستخلص من عنوان IP) لعرض الإعلان وقياسه ومنع الاحتيال وتطبيق قواعد الموافقة، وقد تستخدم معرّفات إعلانات الجوال لتحديد عدد مرات الظهور وللتقارير المجمّعة، بموجب سياسات Google الخاصة. ويُعرض نموذج الموافقة نفسه من Google عند الحاجة. سياسات Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية Google</a> و<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">كيفية استخدام Google للمعلومات من التطبيقات التي تستخدم خدماتها</a>.</p>
     </section>
 
     <section class="card">
@@ -241,8 +247,8 @@
       <ul>
         <li>حذف بيانات اللعب المحلية في أي وقت بمسح بيانات التطبيق أو إزالته.</li>
         <li>إدارة موافقة الإعلانات عبر الإعدادات ← الإعلانات والخصوصية ← خيارات الخصوصية، عند ظهورها.</li>
-        <li>إدارة اشتراكك أو إلغاؤه من إعدادات حسابك في Apple أو Google.</li>
-        <li>للاستفسار عن البيانات التي تحتفظ بها RevenueCat أو Apple أو Google بخصوص مشترياتك أو نشاط الإعلانات، يمكنك أيضًا التواصل معها مباشرة عبر الروابط أعلاه.</li>
+        <li>إدارة أي اشتراك قائم أو إلغاؤه من إعدادات حسابك في Apple أو Google.</li>
+        <li>للاستفسار عن البيانات التي تحتفظ بها RevenueCat أو Apple أو Google أو Unity بخصوص مشترياتك أو نشاط الإعلانات، يمكنك أيضًا التواصل معها مباشرة عبر الروابط أعلاه.</li>
       </ul>
     </section>
 
